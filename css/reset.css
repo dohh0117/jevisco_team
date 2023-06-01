@@ -1,18 +1,10 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 맑은 고딕;
-    color: #555;
-    font-size: 12px;
-}
-
-img {
-    border: 0px;
+    font-family: '맑은 고딕';
 }
 
 ul,
@@ -22,5 +14,4 @@ li {
 
 a {
     text-decoration: none;
-    color: #555;
 }
