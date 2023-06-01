@@ -613,9 +613,9 @@ header {
 }
 
 .footer_in ul {
-    display: inline-block;
     height: 30px;
     line-height: 30px;
+
 
 }
 
@@ -643,17 +643,10 @@ header {
     top: 60px;
 }
 
-.footer_r li {
-    padding: 0 0px;
-}
-
-.footer_r li:nth-child(1) {
-    float: left;
-    padding: 0 5px;
-}
-
-.footer_r li:nth-child(2) {
-    padding: 0 60px;
+.footer_r .sns {
+    width: 220px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer_r .family_site {
@@ -667,6 +660,7 @@ header {
     background: black;
     display: block;
     z-index: 110;
+    top: 45px;
 }
 
 .family_site>a {
