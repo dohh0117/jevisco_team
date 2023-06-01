@@ -1,0 +1,522 @@
+#warp {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 83px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+
+}
+
+.header_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+}
+
+.header_in a {
+    float: left;
+    margin-top: 30px;
+    width: 190px;
+    height: 26px;
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+}
+
+
+.menu {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    padding: 0 19px;
+}
+
+.menu a {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    color: #000;
+}
+
+#nav .sub1 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub2 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub3 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub4 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub li {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.sub li a {
+    margin: 30px auto;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#nav .sub li.act a {
+    color: #000;
+
+}
+
+.btn {
+    float: right;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    width: auto;
+    height: auto;
+}
+
+.btn .all {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    border-radius: 7px;
+    position: relative;
+    top: 0px;
+    color: #fff;
+    /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
+    background-color: #1555A2;
+}
+
+.all2 {
+    float: right;
+    width: 104px;
+    height: 38px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    border-radius: 7px;
+    background-color: #1555A2;
+    color: #fff;
+    margin-left: 9px;
+}
+
+.all2 p {
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+}
+
+#main {
+    padding-top: 83px;
+    width: 100%;
+    height: 590px;
+
+}
+
+.main_in {
+    width: 100%;
+    margin: 0 auto;
+    height: 590px;
+}
+
+.main_in img {
+    width: 100%;
+    height: 590px;
+}
+
+#announcement {
+    margin-top: 30px;
+    width: 100%;
+    height: 935px;
+}
+
+.announcement_in {
+    width: 1200px;
+    height: 935px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.title {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title h3 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.inquiry_in {
+    text-align: center;
+    position: relative;
+    float: right;
+    top: -60px;
+    width: 224px;
+    height: 47px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #333;
+    color: #fff;
+    line-height: 43px;
+}
+
+.title2 {
+    margin: 30px auto;
+    height: 56px;
+    border: 1px solid #000;
+
+}
+
+.title2 .all {
+    text-align: center;
+    width: 152px;
+    height: 29px;
+    margin: 10px 0 0 35px;
+    float: left;
+}
+
+.title2 .search {
+    text-align: center;
+    width: 769px;
+    height: 29px;
+    float: left;
+    margin: 10px 0 0 35px;
+}
+
+.contents {
+    width: 100%;
+    height: 935px;
+}
+
+.tab {
+    margin: 50px 0 50px 0;
+}
+
+.tab ul {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.tab ul li {
+    float: left;
+    width: 181px;
+}
+
+.tab li a {
+    display: block;
+    text-align: center;
+    line-height: 47px;
+    color: #07399c;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #07399c;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.post {
+    border-top: 1px solid #1269ca;
+}
+
+.list .area {
+    overflow: hidden;
+    border-top: 1px solid #e1e1e1;
+    line-height: 1.4;
+}
+
+.post .list {
+    border-bottom: 1px solid #898989;
+}
+
+.post .list a {
+    display: block;
+    padding: 20px 50px 20px 20px;
+    height: 24px;
+}
+
+.text {
+    float: left;
+    position: relative;
+    padding: 3px 0 0px 48px
+}
+
+.text strong {
+    font-size: 18px;
+    color: #333;
+    margin: 0 100px;
+}
+
+.text .day1 {
+    position: relative;
+    left: 100px;
+    top: -5px;
+}
+
+.text .day2 {
+    position: relative;
+    left: 22px;
+    top: -5px;
+}
+
+.text .day3 {
+    position: relative;
+    left: 159px;
+    top: -5px;
+}
+
+.text .day4 {
+    position: relative;
+    left: 87px;
+    top: -5px;
+}
+
+.box {
+    color: #898989;
+    border: 1px solid #898989;
+    padding: 0 6px;
+    width: 84px;
+    height: 31px;
+    margin: 0 100px 10px 0;
+    display: inline-block;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box3 {
+    color: #e17350;
+    border: 1px solid #e17350;
+    padding: 0 6px;
+    width: 84px;
+    height: 31px;
+    margin: 0 100px 10px 0;
+    display: inline-block;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box4 {
+    color: #9b3add;
+    border: 1px solid #9b3add;
+    padding: 0 6px;
+    width: 84px;
+    height: 31px;
+    margin: 0 100px 10px 0;
+    display: inline-block;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 31px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#agency {
+    margin: 80px auto;
+    width: 1200px;
+}
+
+#agency .aec {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
+}
+
+.aec>li {
+    width: 560px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+
+
+.aec_in {
+    background: url(../images/ico_number01.png) no-repeat 30px 50%;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: table;
+    max-width: 100%;
+}
+
+
+.aec_in2 {
+    background: url(../images/ico_number01.png) no-repeat 30px 50%;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: table;
+    max-width: 100%;
+}
+
+
+#agency li .aec_in,
+#agency li .aec_in2 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 580px;
+    height: 136px;
+    padding: 0 0px 0 130px;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#agency li .aec_in span,
+#agency li .aec_in2 span {
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer {
+    border: 1px solid #000;
+    margin-top: 80px;
+    width: 100%;
+    background-color: #303030;
+}
+
+.footer_in {
+    width: 1200px;
+    margin: 30px auto;
+
+}
+
+.footer_l {
+    display: inline-block;
+    width: 366px;
+}
+
+.footer_l .footer_info {
+    width: 366px;
+    height: auto;
+    line-height: 25px;
+}
+
+.footer_in ul {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.footer_in li {
+    display: block;
+    float: left;
+    color: #F4F4F4;
+}
+
+.footer_info2 {
+    width: auto;
+    height: 130px;
+    line-height: 20px;
+}
+
+.footer_logo {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+.footer_r {
+    float: right;
+    position: relative;
+    top: 60px;
+}
+
+.footer_r li {
+    padding: 0 0px;
+}
+
+.footer_r li:nth-child(1) {
+    float: left;
+    padding: 0 5px;
+}
+
+.footer_r li:nth-child(2) {
+    padding: 0 60px;
+}
+
+.footer_r .family_site {
+    top: 30px;
+    width: 220px;
+    height: 48px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: black;
+    display: block;
+    z-index: 110;
+}
+
+.family_site>a {
+    display: block;
+    height: 48px;
+    color: #a1a1a1;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 29px;
+    line-height: 44px;
+    border-bottom: 1px solid #424242;
+    font-size: 20px;
+}
