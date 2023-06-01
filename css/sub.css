@@ -1,0 +1,120 @@
+#wrap{
+    width: 100%;
+}
+/* 상단 */
+#header{
+    width: 100%;
+    height: 837px;
+    background-color: aquamarine;
+}
+/* 컨텐츠 */
+#contents{
+    width: 100%;
+    height:2668px ;
+padding-bottom: 112px;
+}
+#contents_in{
+    margin: 0 auto;
+    
+     width: 1200px;
+     height: 2668px;
+     background-color: #ccc;
+   
+}
+/* 회사소개글 */
+.companyTitle{
+    padding: 166px 0 0 223px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 361px;
+   
+}
+.companyTitle .info_title{
+    padding-bottom: 5px;
+    font-size: 36px; font-weight: bold;
+}
+.companyTitle .info_description{
+    font-size: 13px;
+}
+.comapnyImgBox{
+    width: 100%;height: 137px;
+    background-color: aquamarine;
+}
+/* 사업분야 */
+.businessList{
+    margin-top: 60px;
+    width: 100%;
+    height: 593px;
+   
+}
+.businessList ul{
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 606px;
+    height: 593px;
+    
+}
+.businessList ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;height: 107px;
+   
+}
+.businessImgBox{
+    width: 242px;height: 107px;
+    background-color: cornflowerblue;
+}
+.listTextBox{
+    width: 352px;
+    height: 107px;
+    display: flex;
+    flex-direction: column; justify-content: center;
+   
+}
+
+.companyHistory{
+    margin-top: 127px;
+}
+.companyHistoryText{
+    width: 100%;height: 110px;
+    box-sizing: border-box;
+    padding-left:223px;
+   
+}
+.history_title{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+.history_description{
+    font-size: 13px;
+}
+.historyList{
+    margin:  0 auto;
+    margin-top: 50px;
+    width: 252px;
+    height: 1075px;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+  
+}
+.historyList li{
+    text-align: center;
+    width: 100%;height: 234px;
+   
+}
+.historyList li div{
+    width: 100%;height: 166px;
+    background-color: yellow;
+}
+.historyList li h4{
+    padding-top: 10px;
+}
+/* 하단 */
+#footer{
+    width: 100%;
+    height: 303px;
+    background-color: yellowgreen;
+}
