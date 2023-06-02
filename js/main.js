@@ -67,9 +67,3 @@ $(document).ready(function () {
         slideNext();
     }, 5000);
 });
-
-  $(document).ready(function() {
-    $('#animateButton').click(function() {
-      $('.color_text2').addClass('animate');
-    });
-  });
