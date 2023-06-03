@@ -67,3 +67,30 @@ $(document).ready(function () {
         slideNext();
     }, 5000);
 });
+
+$(document).ready(function() {
+    var slideCount = $('.color_text').length;
+    var currentIndex = 0;
+  
+    function slideAnimation() {
+      $('.color_text2').eq(currentIndex).animate({
+        top: '-430px',
+        opacity: 1
+      }, 500).siblings().css({
+        top: '0px',
+        opacity: 1
+      });
+    }
+  
+    function slideNext() {
+      currentIndex++;
+      if (currentIndex >= slideCount) {
+        currentIndex = 0;
+      }
+      slideAnimation();
+    }
+  
+    $('#animateButton').click(function() {
+      slideNext();
+    });
+  });
