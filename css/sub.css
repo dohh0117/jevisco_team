@@ -2,11 +2,191 @@
     width: 100%;
 }
 /* 상단 */
-#header{
+#header {
     width: 100%;
-    height: 837px;
-    background-color: aquamarine;
+    height: 83px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #ededed58;
+
 }
+
+.header_in {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header_in a {
+    float: left;
+    margin-top: 30px;
+    width: 190px;
+    height: 26px;
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 102px;
+}
+
+.menu {
+    width: 531px;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    padding: 0 30px;
+}
+
+.menu a {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    line-height: 34px;
+    
+    color: #fff;
+    
+}
+
+#nav .sub1 {
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    top: 65px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub2 {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub3 {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub4 {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#nav .sub li {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.sub li a {
+    margin: 10px auto;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+#nav .sub li.act a {
+    color: #000;
+    transition-duration: 1s;
+}
+
+#nav .sub li:hover {
+    width: 100%;
+    height: 50px;
+}
+
+
+.btn {
+    margin-left: 102px;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn .all {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 7px;
+    color: #fff;
+    /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
+    background-color: #5E6366;
+    font-weight: 500;
+}
+
+
+#main {
+    overflow:hidden;
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+.container{
+    width: 300vw;
+    transition:transform 0.5s;
+}
+
+.inner{
+    float:left;
+    width: 100vw;
+   height: 580px;
+}
+.buttonArea{
+    position: absolute;
+    top: 100px; left: 20vw;
+    z-index: 200;
+}
+
+
+.firstslide .subtitle{
+    position: absolute;
+    top: 300px;left: 670px;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    color: #fff;
+}
+.firstslide .maintitle{
+    position: absolute;
+    top: 340px;left: 650px;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    word-spacing: -20px;
+    color: #fff;
+}
+#main .main_img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.mian_img {
+    width: 100%;
+    height: 100%;
+}
+
 /* 컨텐츠 */
 #contents{
     width: 100%;
@@ -18,7 +198,7 @@ padding-bottom: 112px;
     
      width: 1200px;
      height: 2668px;
-     background-color: #ccc;
+     background:url(../images/information_bg.png);
    
 }
 /* 회사소개글 */
@@ -38,7 +218,7 @@ padding-bottom: 112px;
 }
 .comapnyImgBox{
     width: 100%;height: 137px;
-    background-color: aquamarine;
+    background:url(../images/information_1.png);
 }
 /* 사업분야 */
 .businessList{
@@ -63,7 +243,7 @@ padding-bottom: 112px;
    
 }
 .businessImgBox{
-    width: 242px;height: 107px;
+    width: 224px;height: 107px;
     background-color: cornflowerblue;
 }
 .listTextBox{
@@ -240,7 +420,7 @@ padding-bottom: 112px;
     opacity: 0;
 }
 #footer {
-    border: 1px solid #000;
+  
     margin-top: 0px;
     width: 100%;
     background-color: #303030;
@@ -248,7 +428,7 @@ padding-bottom: 112px;
 
 .footer_in {
     width: 1200px;
-    margin: 30px auto;
+    margin:0 auto;
 
 }
 

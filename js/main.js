@@ -1,3 +1,4 @@
+//네비게이션 시작 
 $(document).ready(function () {
     $('.sub').hide(); ''
 
@@ -24,27 +25,9 @@ $(document).ready(function () {
     )
 
 });
+// 네비게이션 끝
+// -----------------------------------------------------------------
 
-$(document).ready(function () {
-    var slideCount = $('#main .main_img ul li').length;
-    var currentIndex = 0;
-
-    function slideAnimation() {
-        $('#main .main_img ul li').eq(currentIndex).css('opacity', 1).siblings().css('opacity', 0);
-    }
-
-    function slideNext() {
-        currentIndex++;
-        if (currentIndex >= slideCount) {
-            currentIndex = 0;
-        }
-        slideAnimation();
-    }
-
-    setInterval(function () {
-        slideNext();
-    }, 5000);
-});
 
 
 $(document).ready(function () {
@@ -68,6 +51,7 @@ $(document).ready(function () {
     }, 5000);
 });
 
+// 
 $(document).ready(function() {
     var slideCount = $('.color_text').length;
     var currentIndex = 0;
@@ -90,7 +74,26 @@ $(document).ready(function() {
       slideAnimation();
     }
   
-    $('#animateButton').click(function() {
+    $('.animateButton').click(function() {
       slideNext();
     });
   });
+  //회사 연혁
+ 
+  $(document).ready(function(){
+    var screen01Num =1;
+    $(window).scroll(function(){
+      var scrollTop =$(document).scrollTop();
+      if(scrollTop>2600 && screen01Num ==1){
+        screen01Num =0;
+        $('.boxArea').stop().delay(700).css({top:'0px'}).animate({top:'-700px'},1000)}
+      else if(scrollTop<2700 && screen01Num ==0){
+        screen01Num =1;
+         $('.boxArea').stop().delay(700).css({top:'-700px'}).animate({top:'0px'},1000)
+
+      }
+    })
+
+
+
+  })

@@ -13,6 +13,7 @@
     <script src="./js/jquery.easing.1.3.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/slidebannermain.js"></script>
 
 </head>
 
@@ -71,37 +72,40 @@
             </div>
         </header>
 
-        <!-- 메인 -->   
+        <!-- 메인 슬라이더 -->   
         <div id="main">
-            <div class="main_img">
-                <ul>
-                    <li><a href="#"><img src="./images/mainimg01.jpg" alt="">
-                        <div class="firstslide">
-                            <span class="subtitle">자연스럽게 색으로 이어진 일상 속 다채로움</span>
-                            <h3 class="maintitle">페인트는 JEVISCO</h3>
-                         </div></a>
-                    <li><a href="#"><img src="./images/kateryna-hliznitsova-ZnZi3IsDpJo-unsplash.jpg" alt="">
-                        <div class="firstslide">
-                            <span class="subtitle">자연스럽게 색으로 이어진 일상 속 다채로움</span>
-                            <h3 class="maintitle">페인트는 JEVISCO</h3>
-                         </div></a>
-                    </li>
-                    <li><a href="#"><img src="./images/main_pr_info.jpg" alt="">
-                        <div class="firstslide">
-                            <span class="subtitle">자연스럽게 색으로 이어진 일상 속 다채로움</span>
-                            <h3 class="maintitle">페인트는 JEVISCO</h3>
-                         </div></a>
-                    </li> 
-                    <li><a href="#"><img src="./images/lucas-kapla-wQLAGv4_OYs-unsplash.jpg" alt="">
-                        <div class="firstslide">
-                            <span class="subtitle">자연스럽게 색으로 이어진 일상 속 다채로움</span>
-                            <h3 class="maintitle">페인트는 JEVISCO</h3>
-                         </div></a>
-                    </li> 
-                </ul>
+            <div id="main_img">
+                <div style="background:url(./images/slider01.png) no-repeat ;"> 
+                    <div class="inner">
+                        <h2>WE ARE PROFESSIONALS</h2>
+                        <span>JEVISCO는 최고의 도료 전문가입니다.<br>
+                        75년간 쌓아온 경험을 바탕으로   기술과 품질로서 고객의 신뢰에 보답하겠습니다.</span>
+                    </div>
+                </div>
+                
+                <div style="background:url(./images/slider02.png) no-repeat ;">
+                    <div class="inner">
+                        <h2>WE ARE PROFESSIONALS</h2>
+                        <span>JEVISCO는 최고의 도료 전문가입니다.<br>
+                        75년간 쌓아온 경험을 바탕으로   기술과 품질로서 고객의 신뢰에 보답하겠습니다.</span>
+                    </div>
+                </div>
+                <div style="background:url(./images/slider03.png) no-repeat ;">
+                    <div class="inner">
+                        <h2>WE ARE PROFESSIONALS</h2>
+                        <span>JEVISCO는 최고의 도료 전문가입니다.<br>
+                        75년간 쌓아온 경험을 바탕으로   기술과 품질로서 고객의 신뢰에 보답하겠습니다.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="playList">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
-        <div id="contents">
+        </div> 
+        <div id="contents">            
             <!-- 사업소개 -->
             <div id="business">
                 <div class="business_in">
@@ -135,16 +139,23 @@
             <!--tap_contents-->
             <div id="color">
                 <div class="color_text">
-                    <span>나만의 色을 통한 공간연출법</span>
-                    <h4>DIY용 페인팅 가이드</h4>
-                    <div>
-                        <span> 나만의 개성을 더한다면 누구나 인테리어 점문가가 될 수 있습니다.</span>
-                        <p>보기만 해도 기분이 좋아지는 색이 있으신가요?<br>
+                    <span class="diy_sub_title">나만의 色을 통한 공간연출법</span>
+                    <h4 class="diy_title">DIY용 페인팅 가이드</h4>
+                    <div >
+                        <span class="diytext_tilte"> 나만의 개성을 더한다면 누구나 인테리어 점문가가 될 수 있습니다.</span>
+                        <p class="discription">보기만 해도 기분이 좋아지는 색이 있으신가요?<br>
                             컬러에 나만의 개성을 더한다면 누구나 인테리어 전문가가 될수 있습니다.
                         </p>
-                        <button id="animateButton">클릭</button>
+                        <button class="animateButton">
+                            <img src="./images/img_menu_more.png" alt="">
+                        </button>
                     </div>
-                    
+                    <div class="img_area" style="top: 242px; opacity: 1;">
+                        <img src="./images/mika-baumeister-NSI6XtbabNw-unsplash.jpg">
+                        <div class="bluebox">
+                        </div>
+                    </div>
+                    <div class="line"></div>
                 </div>
                 <div class="color_text2">
                     <span>나만의 色을 통한 공간연출법</span>
@@ -156,12 +167,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="img_area" style="top: 242px; opacity: 1;">
-                    <img src="./images/mika-baumeister-NSI6XtbabNw-unsplash.jpg">
-                    <div class="bluebox">
-                    </div>
-                </div>
-                <div class="line"></div>
+               
             </div>
             <!--회사 연혁-->
             <div id="history">
@@ -169,41 +175,22 @@
                     JEVISCO's<br>
                     STORY
                 </h3>
-                <div class="history_line">
-                </div>
-                <div class="historyBox01">
-                    <div class="imgArea"><img src="./images/img_main_history_m.jpg"></div>
-                    <div class="description">
-                    <span>1945.12</span> <p>남선도료상회 창업(창업자 황학구 회장)</p> <br/>
-                    <span>1949.05</span> <p>건설화학공업사로 상호 변경</p> <br />
-                    <span>1952.07</span> <p>건설화학공업㈜로 법인전환</p> <br />
-                    <span>1956.09</span> <p>상공부 장관 표창장 수상 (모범생산업체선정)</p> <br />
-                    <span>1960.10</span> <p>건설화학, 근대적 설비 475평 제 2작업장 신축</p> <br />
-                    <span>1963.12</span> <p>건설화학, (주)문화연필(現 주식회사 케이피아이) 인수</p> <br />
-                    <span>1964.11</span> <p>건영산업 설립(現 주식회사 강남건영) 1964.12 문화연필, 국산연필 최초로태국시장 수출</p> <br />
-                    <span>1969.07</span> <p>현대합성산업사 설립(現 주식회사강남)</p>
-
+                <div class="history_line"></div>
+                <div class="boxArea">
+                    <div class="historyBox box01">
+                        <div class="historyImagBox"></div>
+                        <div class="history_description">
+                            <h5>건설화학 출범</h5>
+                        </div>
                     </div>
-                </div>
-                <div class="historyBox02">
-                    <div class="imgArea"><img src="./images/img_main_history_m.jpg"></div>
-                    <div class="description">
-                        <span>1945.12</span>
-                        <p>남선도료상회 창업(창업자 황학구 회장)</p> <br />
-                        <span>1949.05</span>
-                        <p>건설화학공업사로 상호 변경</p> <br />
-                        <span>1952.07</span>
-                        <p>건설화학공업㈜로 법인전환</p> <br />
-                        <span>1956.09</span>
-                        <p>상공부 장관 표창장 수상 (모범생산업체선정)</p> <br />
-                        <span>1960.10</span>
-                        <p>건설화학, 근대적 설비 475평 제 2작업장 신축</p> <br />
-                        <span>1963.12</span>
-                        <p>건설화학, (주)문화연필(現 주식회사 케이피아이) 인수</p> <br />
-                </div>
-            </div>
-            </div>
-
+                    <div class="historyBox box02">
+                        <div class="historyImagBox"></div>
+                        <div class="history_description">
+                            <h5></h5>
+                        </div>
+                    </div>
+                </div>    
+            </div>  
             <!-- 뉴스 -->
             <div id="news">
                     <div class="news_in">
