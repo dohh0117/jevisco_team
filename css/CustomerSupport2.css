@@ -3,13 +3,12 @@
     height: 100%;
 }
 
-header {
+#header {
     width: 100%;
-    height: 83px;
+    height: 73px;
     position: fixed;
     z-index: 9999;
-    top: 0;
-    left: 0;
+    background-color: #ffffff82;
 
 }
 
@@ -17,50 +16,49 @@ header {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
-    position: relative;
-    z-index: 9999;
+    display: flex;
 }
 
 .header_in a {
     float: left;
     margin-top: 30px;
     width: 190px;
-    height: 26px;
+    height: 16px;
 }
 
 #nav {
     display: inline-block;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 102px;
 }
 
-
 .menu {
+    width: 531px;
+    display: flex;
     display: inline-block;
     text-align: center;
-
 }
 
 .menu li {
     display: inline-block;
-    margin-left: 30px;
     position: relative;
-    padding: 0 19px;
+    padding: 0 30px;
 }
 
 .menu a {
     width: auto;
     height: auto;
     font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    padding-bottom: 8px;
+    line-height: 34px;
     color: #000;
+    font-weight: 800;
 }
 
 #nav .sub1 {
     position: absolute;
-    top: 50px;
+    max-width: 100%;
+    text-align: center;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -68,7 +66,7 @@ header {
 
 #nav .sub2 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -76,7 +74,7 @@ header {
 
 #nav .sub3 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -84,7 +82,7 @@ header {
 
 #nav .sub4 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -100,57 +98,45 @@ header {
 }
 
 .sub li a {
-    margin: 30px auto;
+    margin: 10px auto;
     float: left;
     display: block;
     width: 100%;
-    height: 50px;
 }
 
 #nav .sub li.act a {
     color: #000;
-
+    transition-duration: 1s;
 }
 
+#nav .sub li:hover {
+    width: 100%;
+    height: 50px;
+}
+
+
 .btn {
-    float: right;
+    margin-left: 102px;
     display: inline-block;
-    position: relative;
-    top: 20px;
-    width: auto;
+    width: 200px;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn .all {
-    width: 100px;
-    height: 34px;
+    width: 90px;
+    height: 30px;
     text-align: center;
+    line-height: 30px;
     border-radius: 7px;
-    position: relative;
-    top: 0px;
+    font-size: 12px;
     color: #fff;
     /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
-    background-color: #1555A2;
+    background-color: #090b0c6a;
+    font-weight: 500;
 }
 
-.all2 {
-    float: right;
-    width: 104px;
-    height: 38px;
-    text-align: center;
-    position: relative;
-    top: 0px;
-    border-radius: 7px;
-    background-color: #1555A2;
-    color: #fff;
-    margin-left: 9px;
-}
-
-.all2 p {
-    text-align: center;
-    line-height: 38px;
-    font-size: 16px;
-}
 
 #main {
     padding-top: 83px;
@@ -373,7 +359,7 @@ header {
     margin-top: 230px;
     width: 100%;
     height: 632px;
-    background-image: url(../images/pawel-czerwinski-INK9-Idjm3E-unsplash.jpg);
+    background-image: url(../images/agency.png);
     background-size: 1920px;
 }
 
@@ -496,16 +482,19 @@ header {
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
+/* 하단 */
 #footer {
-    border: 1px solid #000;
+   
     margin-top: 0px;
-    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    width: 100%;height: 301px;
     background-color: #303030;
 }
 
 .footer_in {
     width: 1200px;
-    margin: 30px auto;
+    margin: 0 auto;
 
 }
 
@@ -530,7 +519,7 @@ header {
 .footer_in li {
     display: block;
     float: left;
-    color: #F4F4F4;
+    color: #777;
 }
 
 .footer_info2 {

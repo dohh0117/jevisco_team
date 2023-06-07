@@ -137,6 +137,7 @@
     font-weight: 500;
 }
 
+/* 메인슬라이더 */
 #main {
     width: 100%;
     height: 769px;
@@ -447,7 +448,7 @@
     font-size: 25px;
     color: #fff;
     font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .contents_menu li p {
@@ -456,147 +457,55 @@
     top: 60px;
     color: #fff;
     font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 
-/*대리점*/
-#agency {
-    margin-top: 230px;
+
+
+
+
+.contents_box {
     width: 100%;
-    height: 632px;
-    background-image: url(../images/icon_background.png);
-    background-size: 1920px;
+    height: 600px;
+    background: url(../images/agency.png);
 }
 
-#agency .agencey_in {
+.contents_box ul {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
     display: flex;
-    text-align: center;
-    margin: 0 auto;
-    width: 1200px;
-    height: 632px;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-
-#agency .aec {
-    width: 1200px;
-    margin-left: -20px;
-
-}
-
-.aec>li {
-    width: 33.3333%;
-    box-sizing: border-box;
-    padding-left: 20px;
-    float: left;
-    text-align: center;
-    height: 131px;
-}
-
-
-.aec_in {
-    background: url(../images/bg_main_btn01.png) no-repeat 28px 50%;
-    width: 100%;
-    display: table;
-    max-width: 100%;
+.contents_box li {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     border-radius: 5px;
-    height: 131px;
-}
-
-#agency .aec01 .aec_in a {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    height: 131px;
-    padding: 0 50px 0 90px;
-    box-sizing: border-box;
-    line-height: 24px;
-    color: #004ba9;
-    font-size: 18px;
-    text-align: left;
-    background: url(../images/icon01.png) no-repeat 5% 50%;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
     background-color: #fff;
-}
-
-#agency .aec02 .aec_in a {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    height: 131px;
-    padding: 0 50px 0 90px;
-    box-sizing: border-box;
-    line-height: 24px;
-    color: #004ba9;
+    box-shadow: 1px 5px 8px #555454;
+    color: #000;
+    cursor: pointer;
     font-size: 18px;
-    text-align: left;
-    background: url(../images/icon02.png) no-repeat 5% 50%;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background-color: #fff;
 }
 
-#agency .aec03 .aec_in a {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    height: 131px;
-    padding: 0 50px 0 90px;
-    box-sizing: border-box;
-    line-height: 24px;
-    color: #004ba9;
-    font-size: 18px;
-    text-align: left;
-    background: url(../images/icon03.png) no-repeat 5% 50%;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
-    background-color: #fff;
-}
-
-
-#company {
-    width: 100%;
-    height: 360px;
-    margin-top: 80px;
-}
-
-
-.company_img {
-    width: 1200px;
-    height: 360px;
-    position: relative;
-    margin: 0 auto;
-}
-
-.company_img li {
-    width: 100%;
-    height: 360px;
-    position: absolute;
-}
-
-.company_img li img {
-    display: block;
-    width: 1200px;
-    height: 360px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-#company .company_img ul li:not(:first-child) {
-    opacity: 0;
+.contents_box li>span {
+    display: flex;
+    align-items: center;
 }
 
 /* 하단 */
 #footer {
-
+   
     margin-top: 0px;
     padding-top: 50px;
     box-sizing: border-box;
-    width: 100%;
-    height: 301px;
+    width: 100%;height: 301px;
     background-color: #303030;
 }
 
