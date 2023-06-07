@@ -4,15 +4,16 @@
 /* 상단 */
 #header {
     width: 100%;
-    height: 83px;
+    height: 73px;
     position: fixed;
     z-index: 9999;
-    background-color: #ededed58;
+    background-color: #ffffff82;
 
 }
 
 .header_in {
     width: 1200px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
 }
@@ -21,7 +22,7 @@
     float: left;
     margin-top: 30px;
     width: 190px;
-    height: 26px;
+    height: 16px;
 }
 
 #nav {
@@ -48,9 +49,8 @@
     height: auto;
     font-size: 16px;
     line-height: 34px;
-    
-    color: #fff;
-    
+    color: #000;
+    font-weight: 800;
 }
 
 #nav .sub1 {
@@ -129,13 +129,12 @@
     text-align: center;
     line-height: 30px;
     border-radius: 7px;
+    font-size: 12px;
     color: #fff;
     /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
-    background-color: #5E6366;
+    background-color: #090b0c6a;
     font-weight: 500;
 }
-
-
 #main {
     width: 100%;
     height: 769px;
