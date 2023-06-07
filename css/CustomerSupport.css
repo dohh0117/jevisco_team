@@ -3,13 +3,12 @@
     height: 100%;
 }
 
-header {
+#header {
     width: 100%;
-    height: 83px;
+    height: 73px;
     position: fixed;
     z-index: 9999;
-    top: 0;
-    left: 0;
+    background-color: #ffffff82;
 
 }
 
@@ -17,50 +16,50 @@ header {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
-    position: relative;
-    z-index: 9999;
+    display: flex;
 }
 
 .header_in a {
     float: left;
     margin-top: 30px;
     width: 190px;
-    height: 26px;
+    height: 16px;
 }
+
 
 #nav {
     display: inline-block;
     text-align: center;
-    margin-left: 200px;
+    margin-left: 102px;
 }
 
-
 .menu {
+    width: 531px;
+    display: flex;
     display: inline-block;
     text-align: center;
-
 }
 
 .menu li {
     display: inline-block;
-    margin-left: 30px;
     position: relative;
-    padding: 0 19px;
+    padding: 0 30px;
 }
 
 .menu a {
     width: auto;
     height: auto;
     font-size: 16px;
-    line-height: 24px;
-    font-weight: bold;
-    padding-bottom: 8px;
+    line-height: 34px;
     color: #000;
+    font-weight: 800;
 }
 
 #nav .sub1 {
     position: absolute;
-    top: 50px;
+    max-width: 100%;
+    text-align: center;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -68,7 +67,7 @@ header {
 
 #nav .sub2 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -76,7 +75,7 @@ header {
 
 #nav .sub3 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -84,7 +83,7 @@ header {
 
 #nav .sub4 {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 0px;
     width: 100%;
     height: auto;
@@ -100,87 +99,97 @@ header {
 }
 
 .sub li a {
-    margin: 30px auto;
+    margin: 10px auto;
     float: left;
     display: block;
     width: 100%;
-    height: 50px;
 }
 
 #nav .sub li.act a {
     color: #000;
-
+    transition-duration: 1s;
 }
 
+#nav .sub li:hover {
+    width: 100%;
+    height: 50px;
+}
+
+
 .btn {
-    float: right;
+    margin-left: 102px;
     display: inline-block;
-    position: relative;
-    top: 20px;
-    width: auto;
+    width: 200px;
     height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn .all {
-    width: 100px;
-    height: 34px;
+    width: 90px;
+    height: 30px;
     text-align: center;
+    line-height: 30px;
     border-radius: 7px;
-    position: relative;
-    top: 0px;
+    font-size: 12px;
     color: #fff;
     /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
-    background-color: #1555A2;
-}
-
-.all2 {
-    float: right;
-    width: 104px;
-    height: 38px;
-    text-align: center;
-    position: relative;
-    top: 0px;
-    border-radius: 7px;
-    background-color: #1555A2;
-    color: #fff;
-    margin-left: 9px;
-}
-
-.all2 p {
-    text-align: center;
-    line-height: 38px;
-    font-size: 16px;
+    background-color: #090b0c6a;
+    font-weight: 500;
 }
 
 #main {
-    padding-top: 83px;
     width: 100%;
-    height: 590px;
+    height: 776px;
 
 }
 
 .main_in {
     width: 100%;
     margin: 0 auto;
-    height: 590px;
+    height: 776px;
 }
 
 .main_in img {
     width: 100%;
-    height: 590px;
+    height: 776px;
+}
+.firstslide{
+    width: auto;
 }
 
-#help {
-    margin-top: 30px;
+.firstslide .subtitle {
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    font-size: 60px;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    color: #fff;
+    font-weight: bold;
+}
+.firstslide .maintitle {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    font-size: 25px;
+    font-weight: 100;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    color: #fff;
+}
+
+#announcement {
+    margin: 0px auto;
     width: 100%;
     height: 935px;
+    margin-top: 150px;
 }
 
-.help_in {
+.announcement_in {
     width: 1200px;
     height: 935px;
-    margin: 30px auto;
+    margin: 0px auto;
     text-align: center;
+
 }
 
 .title {
@@ -203,15 +212,17 @@ header {
     height: 47px;
     border-radius: 10px;
     font-size: 25px;
-    background-color: #333;
+    background-color: #264A80;
     color: #fff;
     line-height: 43px;
 }
 
 .title2 {
-    margin: 30px auto;
+    margin: 0px auto;
     height: 56px;
     border: 1px solid #000;
+    background-color: #264A80;
+    margin-top: 46px;
 
 }
 
@@ -220,12 +231,17 @@ header {
     width: 152px;
     height: 29px;
     margin: 10px 0 0 35px;
+    float: left;
+    border-radius: 10px;
 }
 
 .title2 .search {
     text-align: center;
-    width: 769px;
+    width: 745px;
     height: 29px;
+    float: left;
+    margin: 10px 0 0 35px;
+    border-radius: 10px;
 }
 
 .contents {
@@ -249,21 +265,21 @@ header {
     width: 181px;
 }
 
-
 .tab li a {
     display: block;
     text-align: center;
     line-height: 47px;
-    color: #07399c;
+    color: #fff;
     font-size: 16px;
     font-weight: bold;
-    border: 1px solid #07399c;
     box-sizing: border-box;
     width: 100%;
+    background-color: #264A80;
+    border-radius: 10px;
 }
 
 .post {
-    border-top: 1px solid #1269ca;
+    border-top: 1px solid #898989;
 }
 
 .list .area {
@@ -296,26 +312,30 @@ header {
 
 .text .day1 {
     position: relative;
-    left: 100px;
+    left: 200px;
     top: -5px;
+    color: #7D7D7D;
 }
 
 .text .day2 {
     position: relative;
-    left: 22px;
+    left: 133px;
     top: -5px;
+    color: #7D7D7D;
 }
 
 .text .day3 {
     position: relative;
-    left: 159px;
+    left: 246px;
     top: -5px;
+    color: #7D7D7D;
 }
 
 .text .day4 {
     position: relative;
-    left: 87px;
+    left: 186px;
     top: -5px;
+    color: #7D7D7D;
 }
 
 .box {
@@ -366,18 +386,20 @@ header {
     text-align: center;
 }
 
-#agency {
-    margin: 80px auto;
+
+#consumer {
+    margin: 0px auto;
     width: 1200px;
+    margin-top: 150px;
 }
 
-#agency .aec {
+#consumer .cnumr {
     display: flex;
     justify-content: space-between;
     width: auto;
 }
 
-.aec>li {
+.cnumr>li {
     width: 560px;
     box-sizing: border-box;
     float: left;
@@ -386,7 +408,7 @@ header {
 
 
 
-.aec_in {
+.cnumr_in {
     background: url(../images/ico_number01.png) no-repeat 30px 50%;
     border: 1px solid #ccc;
     width: 100%;
@@ -395,8 +417,8 @@ header {
 }
 
 
-.aec_in2 {
-    background: url(../images/ico_number01.png) no-repeat 30px 50%;
+.cnumr_in2 {
+    background: url(../images/ico_number02.png) no-repeat 30px 50%;
     border: 1px solid #ccc;
     width: 100%;
     display: table;
@@ -404,8 +426,8 @@ header {
 }
 
 
-#agency li .aec_in,
-#agency li .aec_in2 {
+#consumer li .cnumr_in,
+#consumer li .cnumr_in2 {
     display: table-cell;
     vertical-align: middle;
     width: 580px;
@@ -417,23 +439,152 @@ header {
     text-align: left;
 }
 
-#agency li .aec_in span,
-#agency li .aec_in2 span {
+#consumer li .cnumr_in span,
+#consumer li .cnumr_in2 span {
     color: #222;
     font-size: 20px;
     font-weight: 500;
 }
 
-#footer {
-    border: 1px solid #000;
-    margin-top: 80px;
+#agency {
+    margin-top: 230px;
     width: 100%;
+    height: 632px;
+    background-image: url(../images/pawel-czerwinski-INK9-Idjm3E-unsplash.jpg);
+    background-size: 1920px;
+}
+
+#agency .agencey_in {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    height: 632px;
+        align-items: center;
+
+}
+
+
+#agency .aec {
+    width: 1200px;
+    margin-left: -20px;
+
+}
+
+.aec>li {
+    width: 33.3333%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    float: left;
+    text-align: center;
+    height: 131px;
+}
+
+
+.aec_in {
+    background: url(../images/bg_main_btn01.png) no-repeat 28px 50%;
+    width: 100%;
+    display: table;
+    max-width: 100%;
+    border-radius: 5px;
+    height: 131px;
+}
+
+#agency .aec01 .aec_in a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 131px;
+    padding: 0 50px 0 90px;
+    box-sizing: border-box;
+    line-height: 24px;
+    color: #004ba9;
+    font-size: 18px;
+    text-align: left;
+    background: url(../images/icon01.png) no-repeat 5% 50%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+}
+
+#agency .aec02 .aec_in a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 131px;
+    padding: 0 50px 0 90px;
+    box-sizing: border-box;
+    line-height: 24px;
+    color: #004ba9;
+    font-size: 18px;
+    text-align: left;
+    background: url(../images/icon02.png) no-repeat 5% 50%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+}
+
+#agency .aec03 .aec_in a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 131px;
+    padding: 0 50px 0 90px;
+    box-sizing: border-box;
+    line-height: 24px;
+    color: #004ba9;
+    font-size: 18px;
+    text-align: left;
+    background: url(../images/icon03.png) no-repeat 5% 50%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+}
+
+
+#company {
+    width: 100%;
+    height: 360px;
+    margin-top: 80px;
+}
+
+
+.company_img {
+    width: 1200px;
+    height: 360px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.company_img li {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+}
+
+.company_img li img {
+    display: block;
+    width: 1200px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#company .company_img ul li:not(:first-child) {
+    opacity: 0;
+}
+#footer {
+   
+    margin-top: 0px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    width: 100%;height: 301px;
     background-color: #303030;
 }
 
 .footer_in {
     width: 1200px;
-    margin: 30px auto;
+    margin: 0 auto;
 
 }
 
@@ -449,23 +600,24 @@ header {
 }
 
 .footer_in ul {
-    display: inline-block;
     height: 30px;
     line-height: 30px;
+
 
 }
 
 .footer_in li {
     display: block;
     float: left;
-    color: #F4F4F4;
+    color: #777;
 }
 
 .footer_info2 {
-    width: auto;
+    width: 394px;
     height: 130px;
     line-height: 20px;
 }
+
 
 .footer_logo {
     margin-top: 10px;
@@ -473,23 +625,17 @@ header {
     height: auto;
 }
 
+
 .footer_r {
     float: right;
     position: relative;
     top: 60px;
 }
 
-.footer_r li {
-    padding: 0 0px;
-}
-
-.footer_r li:nth-child(1) {
-    float: left;
-    padding: 0 5px;
-}
-
-.footer_r li:nth-child(2) {
-    padding: 0 60px;
+.footer_r .sns {
+    width: 220px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer_r .family_site {
@@ -503,16 +649,16 @@ header {
     background: black;
     display: block;
     z-index: 110;
+    top: 45px;
 }
 
 .family_site>a {
     display: block;
     height: 48px;
-    color: #a1a1a1;
+    color: #8E8D8D;
     font-weight: bold;
     box-sizing: border-box;
     padding-left: 29px;
     line-height: 44px;
-    border-bottom: 1px solid #424242;
     font-size: 20px;
 }
