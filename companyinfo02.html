@@ -7,20 +7,87 @@
     <title>제비스코</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/sub2.css" />
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.easing.1.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/slidebanner.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 <body>
     <div id="wrap">
         <header id="header">
-            <section id="main">
-                header
-            </section>
+            <div class="header_in">
+                <a href="./index.html">
+                    <img src="./images/h1_logo.png">
+                </a>
+                <div id="nav">
+                    <ul class="menu">
+                        <li><a href="./companyinfo.html">회사소개</a>
+                            <ul class="sub sub1">
+                                <li><a href="./companyinfo02.html">기업정보</a></li>
+                                <li><a href="./companyinfo02.html">브랜드 소개</a></li>
+                                <li><a href="./companyinfo02.html">역사관</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./construct.html">제품소개</a>
+                            <ul class="sub sub2">
+                                <li><a href="./construct.html">건축용</a></li>
+                                <li><a href="./construct.html">공업용</a></li>
+                                <li><a href="./Ship.html">선박 증방식용</a></li>
+                                <li><a href="./car.html">자동차보수용</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./employment.html">인재채용</a>
+                            <ul class="sub sub3">
+                                <li><a href="#">채용공고</a></li>
+                                <li><a href="#">채용절차</a></li>
+                                <li><a href="#">인재상</a></li>
+                                <li><a href="#">직무소개</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./CustomerSupport.html">고객지원</a>
+                            <ul class="sub sub4">
+                                <li><a href="">공지사항</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <!--<input type="text" name="input_name" class="all" value="제품검색">-->
+                    <a href="" class="all">
+                        제품검색
+                    </a>
+                    <a href="" class="all">
+                        KOR
+                    </a>
+                </div>
+
+            </div>
         </header>
+
+        <!-- 메인 -->   
+       
+        <div id="main">
+            <div id="main_img">
+                <img src="./images/Main1.png" alt="">
+                <img src="./images/main (2).PNG" alt="">
+                <img src="./images/main2 (2).PNG" alt="">
+            </div>
+            <div class="playList">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- 컨텐츠 -->
         <section id="contents">
             <div id="contents_in">
                 <div class="companyInformation">
                     <div class="companyInfoImgbox"></div>
                     <div class="companyInfo_textArea">
-                        <div class="logo">logo</div>
+                        <div class="logo"></div>
                         <h3 class="areaTitle">회사개요</h3>
                         <ul class="description">
                             <li>
@@ -50,7 +117,7 @@
                 <div class="brandInfo">
                     <ul>
                         <li>
-                            <div class="logoarea">logo</div>
+                            <div class="logoarea" style="background: url(./images/companyinfo01.png);"></div>
                             <h4>제비스코, 제비표페인트의 새로운 이름</h4>
                             <div class="brandDescription">
                                 <span>JEVISCO는 대한민국의 대표 페인트 브랜드로 사랑받아온
@@ -62,7 +129,7 @@
                             </div>
                         </li>
                         <li>
-                            <div class="logoarea">logo</div>
+                            <div class="logoarea" style="background: url(./images/companyinfo02.png);"></div>
                             <h4>제비스코, 제비표페인트의 새로운 이름</h4>
                             <div class="brandDescription">
                                 <span>JEVISCO는 대한민국의 대표 페인트 브랜드로 사랑받아온
@@ -73,7 +140,7 @@
                                 </span>
                             </div>
                         </li><li>
-                            <div class="logoarea">logo</div>
+                            <div class="logoarea" style="background: url(./images/h1_logo.png) no-repeat;"></div>
                             <h4>제비스코, 제비표페인트의 새로운 이름</h4>
                             <div class="brandDescription">
                                 <span>JEVISCO는 대한민국의 대표 페인트 브랜드로 사랑받아온
@@ -133,7 +200,7 @@
                             </ul>
                         </div>
                         <div class="footer_logo">
-                            <a href="#"><img src="./images/h1_logo.png"></a>
+                            <a href="#"><img src="./images/footerlogo.png"></a>
                         </div>
                     </div>
                     <div class="footer_r">
