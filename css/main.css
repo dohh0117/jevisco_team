@@ -521,7 +521,7 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 #history {
     margin-top: 230px;
     width: 100%;
-    height: 1300px;
+    height: 1100px;
     position: relative;
     /* background: url(../images/history01.png) fixed; */
     background-color: #09182a;
@@ -812,7 +812,7 @@ position: relative;
     margin-top: 230px;
     width: 100%;
     height: 632px;
-    background-image: url(../images/icon_background.png);
+    background-image: url(../images/agencybg.png);
     background-size: 1920px;
 }
 

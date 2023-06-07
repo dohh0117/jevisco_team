@@ -137,54 +137,94 @@
 
 
 #main {
-    overflow:hidden;
     width: 100%;
-    height: 580px;
+    height: 769px;
+    font-size: 0;
     position: relative;
 }
-.container{
-    width: 300vw;
-    transition:transform 0.5s;
-}
 
-.inner{
-    float:left;
-    width: 100vw;
-   height: 580px;
-}
-.buttonArea{
-    position: absolute;
-    top: 100px; left: 20vw;
-    z-index: 200;
-}
-
-
-.firstslide .subtitle{
-    position: absolute;
-    top: 300px;left: 670px;
-    font-size: 35px;
-    font-weight: 500;
-    text-shadow: 2px 2px 6px rgb(27, 27, 27);
-    color: #fff;
-}
-.firstslide .maintitle{
-    position: absolute;
-    top: 340px;left: 650px;
-    font-size: 100px;
-    font-weight: 900;
-    text-shadow: 2px 2px 6px rgb(27, 27, 27);
-    word-spacing: -20px;
-    color: #fff;
-}
-#main .main_img img{
+#main_img {
+    /* width: 1903px; */
     width: 100%;
-    height: 100%;
+    height: 769px;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 
-.mian_img {
+#main_img img {
+    /* width: 1903px; */
     width: 100%;
-    height: 100%;
+    height: 769px;
+    position: absolute;
+}
+
+#main_img img:nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+
+#main_img img:nth-child(2) {
+    position: absolute;
+    left: -100%;
+}
+
+#main_img img:nth-child(3) {
+    position: absolute;
+    left: -200%;
+}
+
+#main .btns {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.btns>.left {
+    width: 70px;
+    height: 70px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_left.png) no-repeat 100% 100%;
+    border: none;
+    position: absolute;
+    left: 20%;
+    cursor: pointer;
+}
+
+.btns>.right {
+    width: 70px;
+    height: 70px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_right.png) no-repeat 100% 100%;
+    border: none;
+    position: absolute;
+    right: 20%;
+    cursor: pointer;
+}
+
+#main .playList {
+    width: 90px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    bottom: 0;
+}
+
+#main .playList>div {
+    width: 30px;
+    height: 30px;
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery.png) no-repeat 50% 50%;
+    float: left;
+    display: inline-block;
+}
+
+#main .playList>div.on {
+    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery_on.png) no-repeat 50% 50%;
 }
 
 /* 컨텐츠 */
@@ -198,7 +238,7 @@ padding-bottom: 112px;
     
      width: 1200px;
      height: 2668px;
-     background:url(../images/information_bg.png);
+     background:url(../images/companyinfobg.png);
    
 }
 /* 회사소개글 */
@@ -218,7 +258,7 @@ padding-bottom: 112px;
 }
 .comapnyImgBox{
     width: 100%;height: 137px;
-    background:url(../images/information_1.png);
+    background:url(../images/info001.png);
 }
 /* 사업분야 */
 .businessList{
@@ -420,15 +460,17 @@ padding-bottom: 112px;
     opacity: 0;
 }
 #footer {
-  
+   
     margin-top: 0px;
-    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    width: 100%;height: 301px;
     background-color: #303030;
 }
 
 .footer_in {
     width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 
 }
 
@@ -453,7 +495,7 @@ padding-bottom: 112px;
 .footer_in li {
     display: block;
     float: left;
-    color: #F4F4F4;
+    color: #777;
 }
 
 .footer_info2 {
