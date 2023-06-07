@@ -4,16 +4,16 @@
 }
 
 #header {
-    width: 100%;
+    width: 1000px;
     height: 73px;
     position: fixed;
     z-index: 9999;
-    background-color: #ffffff82;
+    background-color: #8e8d8d32;
 
 }
 
 .header_in {
-    width: 1200px;
+    width: 1000px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -23,13 +23,14 @@
     float: left;
     margin-top: 30px;
     width: 190px;
-    height: 16px;
+    height: 26px;
 }
 
 #nav {
     display: inline-block;
     text-align: center;
     margin-left: 102px;
+   
 }
 
 .menu {
@@ -50,8 +51,9 @@
     height: auto;
     font-size: 16px;
     line-height: 34px;
-    color: #000;
-    font-weight: 800;
+    
+    color: #fff;
+    
 }
 
 #nav .sub1 {
@@ -116,7 +118,7 @@
 
 
 .btn {
-    margin-left: 102px;
+    margin-left: -30px;
     display: inline-block;
     width: 200px;
     height: auto;
@@ -130,149 +132,61 @@
     text-align: center;
     line-height: 30px;
     border-radius: 7px;
-    font-size: 12px;
     color: #fff;
     /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
-    background-color: #090b0c6a;
+    background-color: #5e636678;
     font-weight: 500;
 }
 
-/* 메인슬라이더 */
+
 #main {
-    width: 100%;
-    height: 769px;
-    /* position: relative; */
-}
-
-#main_img {
-    /* width: 1903px; */
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    
-    overflow: hidden;
-    cursor: pointer;
-}
-
-
-#main_img > div {
-    /* width: 1903px; */
-    width: 100%;
-    height: 100vh;
-    /* padding: 400px 0 0 0; */
-   float: left;
-  
-}
-#main_img > div .inner{
     width: 1000px;
-    height: 300px;
-    padding: 200px 0 0 300px;
-    box-sizing: border-box;
-    background-color: #12433f;
-    opacity: 1;
-} 
-
-#main_img > div .inner.show{
-    animation: slider 1s ease-out;
-
-}
-
-@keyframes slider{
-    form{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-
-}
-#main_img > div .inner h2{
-    color: #fff;
-    font-size: 60px;
-}
-#main_img > div .inner span{
-    color: #fff;
-    font-size: 25px;
+    height: 100vh;
 }
 
 
-#main_img div:nth-child(1) {
-    position: absolute;
-    left: 0;
-    top:0;
-}
-
-#main_img div:nth-child(2) {
-    position: absolute;
-    left: -100%;
-    top: 0;
-}
-
-#main_img div:nth-child(3) {
-    position: absolute;
-    left: -200%;
-    top: 0;
-}
-
-#main .btns {
+.main_img {
     width: 100%;
+    height: 100vh;
+}
+
+.main_img li {
+    width: 100%;
+    height: 100vh;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
 }
 
-.btns>.left {
-    width: 70px;
-    height: 70px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_left.png) no-repeat 100% 100%;
-    border: none;
+.firstslide .subtitle{
     position: absolute;
-    left: 20%;
-    cursor: pointer;
+    top: 300px;left: 335px;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    color: #fff;
 }
-
-.btns>.right {
-    width: 70px;
-    height: 70px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_right.png) no-repeat 100% 100%;
-    border: none;
+.firstslide .maintitle{
     position: absolute;
-    right: 20%;
-    cursor: pointer;
+    top: 340px;left: 325px;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 2px 2px 6px rgb(27, 27, 27);
+    word-spacing: -20px;
+    color: #fff;
+}
+#main .main_img img{
+    width: 100%;
+    height: 100%;
 }
 
-#main .playList {
-    width: 90px;
-    height: 30px;
-    float: left;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 900px;
-    left: 50%;
-    bottom: 0;
-}
 
-#main .playList>div {
-    width: 30px;
-    height: 30px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery.png) no-repeat 50% 50%;
-    float: left;
-    display: inline-block;
-}
 
-#main .playList>div.on {
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery_on.png) no-repeat 50% 50%;
-}
 #contents{
-    width: 100%;
+    width: 1000px;
     height: auto;
-    padding-top: 110px;
-    box-sizing: border-box;
 }
 /*사업소개*/
 #business {
-    width: 100%;
+    width: 1000px;
     height: 645px;
     margin-top: 230px;
    
@@ -280,7 +194,7 @@
 
 .business_in {
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
     height: auto;
 }
 
@@ -429,49 +343,22 @@
 /*color*/
 #color{
     margin-top:230px ;
-    width: 100%;
+    width: 1000px;
     height:712px;
     position: relative;
 }
 .color_text{
-    width:1250px;height: 430px;
-    padding:102px 0 0 340px;
+    width:1000px;height: 430px;
+    padding:102px 0 0 100px;
     box-sizing: border-box;
     background-color: #F5F5F5;
     opacity: 1;
     transition: 0.5s;
-    position: relative;
 }
-.diy_sub_title{
-    font-size:22px;
-    color: #636363;
-    font-weight: 700;
-}
-.diy_title{
-    font-size:30px;
-    color: #000;
-    font-weight: bolder;
-    padding-bottom: 13px;
-}
-.diytext_tilte{
-    font-size: 17px;
-  
-}
-.discription{
-    padding-top:13px ;
-    font-size: 13px;
-    color: #444;
-}
-.animateButton{
-    cursor: pointer;
-    position: absolute;
-    top:300px;
-    background: none;
-    border: 0;
-    width: 24px;height: 24px;
-}
+.color_text a,
+.color_text2 a{
 
-
+}
 .color_text img,
 .color_text2 img{
     width: 53px;
@@ -479,11 +366,11 @@
 }
 
 .color_text2 {
-    width: 1250px;
+    width: 1000px;
     height: 430px;
-    padding: 102px 0 0 340px;
+    padding: 102px 0 0 100px;
     box-sizing: border-box;
-    background-color: #F5F5F5;
+    background-color: red;
     transition: top 0.5s;
     position: relative;
   top: 100px;
@@ -492,9 +379,10 @@
 
 
 .img_area{
-    position: absolute;
-    top: 242px; right: -40%;
-    width:618px ;
+position: absolute;
+    top: 242px;
+    right: 40px;
+    width: 618px;
     height: 470px;
     background-color: #004ba9;
     z-index: 9999;
@@ -519,100 +407,117 @@
     height: 2px;
     background-color:#004ba9 ;
 }
-
 /*회사 연혁*/
 #history {
     margin-top: 230px;
-    width: 100%;
+    width: 1000px;
     height: 1100px;
     position: relative;
-    /* background: url(../images/history01.png) fixed; */
-    background-color: #09182a;
-    overflow: hidden;
-   
+    background-image: url(../images/story01.png);
 }
 .history_title {
-    float: left;
-    padding: 50px 0 0 50px;
-    font-size: 70px;
-    font-weight:bold;
+font-size: 70px;
+    position: absolute;
+    top: 107px;
+    left: 40px;
+    font-weight: bold;
     color: #fff;
 }
 .history_line {
-    float: right;
-    margin: 0 670px 0 0;
-    width: 2px;
+    width: 5px;
     height: 1100px;
-   background-color: #f1f4f5;
+    margin-left: 1000px;
 }
-.boxArea{
-    width: 70%;height: 1900px;
-   
-    display: flex;justify-content: space-between;
-   position: absolute; top: -900px;right: 0;
+.historyBox01{
+    position: absolute;
+        top: 100px;
+        right: 00px;
+        width: 585px;
+        height: 508px;
 }
-.boxArea .right_box{
-    width: 45%;height: 1000px;
-  
-    display: flex; flex-direction: column;
-    justify-content: space-between;
+.description{
+    line-height: 35px;
 }
-.boxArea .left_box {
-    margin-top: 100px;
-    width: 45%;height: 1000px;
-   
-    display: flex; flex-direction: column;
-    justify-content: space-around;
-}
-
-#history .box01{
-  
-    width: 600px;height: 502px;
-  
-  
-}
-
-#history .box02{
-   
-    width: 600px;height: 502px;
-   
-}
-#history .box03 {
-
-    width: 600px;
-    height: 502px;
-   
-
-}#history .box04 {
-
-    width: 600px;
-    height: 502px;
-  
-
-}
-.historyImagBox{
-    margin: 0 auto;
+.historyBox01 img,
+.historyBox02 img{
     width: 586px;
-    height: 220px;
-    border-radius: 7px;
-    overflow: hidden;
+    height: 226px;
 }
-.historyImagBox img{
-    width: 100%;height: 100%;
+.historyBox01 span,
+.historyBox02 span{
+    color: #fff;
+    font-weight: 800;
+    display: inline-block
 }
-.history_description{
-    margin: 0 auto;
-    margin-top: 20px;
-   width: 586px;
-    height: 220px;
-    color: #ccc;
-    font-size: 16px;
+.historyBox01 p,
+.historyBox02 p{
+    font-weight: 400;
+    color: #fff;
+    display: inline-block
+}
+.historyBox02 {
+    position: absolute;
+    top: 670px;
+    right: 50px;
+    width: 585px;
+    height: 508px;
 }
 
-/* 뉴스 영역 */
+.history_box {
+    margin: 0 auto;
+    width: 1000px;
+    height: 420px;
+}
+
+.historylist {
+    width: 100%;
+    height: 420px;
+}
+
+.historybox1 {
+    position: relative;
+    top: -80px;
+    width: 249px;
+    height: 282px;
+    margin: 10px 0px;
+    float: right
+}
+
+.historybox1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.historybox2 {
+    width: 249px;
+    height: 282px;
+    margin: 10px 50px;
+    float: right
+}
+
+.historybox2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.historybox3 {
+    position: relative;
+    top: -80px;
+    width: 249px;
+    height: 282px;
+    margin: 10px 0px;
+    float: right
+}
+
+.historybox3 img {
+    width: 100%;
+    height: 100%;
+}
+
+
 #news {
     margin-top: 230px;
-    width: 100%;
+    width: 1000px;
     height: 800px;
     background-color: #CBD4D9;
 
@@ -628,7 +533,7 @@
 }
 
 .news_in {
-    width: 1200px;
+    width: 1000px;
     height: 800px;
     margin: 0 auto;
 
@@ -650,7 +555,7 @@
 .news_box {
     display: flex;
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
     height: 500px;
     text-align: center;
     justify-content: space-evenly;
@@ -813,7 +718,7 @@ position: relative;
 /*대리점*/
 #agency {
     margin-top: 230px;
-    width: 100%;
+    width: 1000px;
     height: 632px;
     background-image: url(../images/pawel-czerwinski-INK9-Idjm3E-unsplash.jpg);
     background-size: 1920px;
@@ -823,7 +728,7 @@ position: relative;
     display: flex;
     text-align: center;
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
     height: 632px;
         align-items: center;
 
@@ -831,7 +736,7 @@ position: relative;
 
 
 #agency .aec {
-    width: 1200px;
+    width: 1000px;
     margin-left: -20px;
 
 }
@@ -915,7 +820,7 @@ position: relative;
 
 
 .company_img {
-    width: 1200px;
+    width: 1000px;
     height: 360px;
     position: relative;
     margin: 0 auto;
@@ -929,7 +834,7 @@ position: relative;
 
 .company_img li img {
     display: block;
-    width: 1200px;
+    width: 1000px;
     height: 360px;
     object-fit: cover;
     border-radius: 5px;
@@ -938,19 +843,16 @@ position: relative;
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
-/* 하단 */
 #footer {
-   
     margin-top: 0px;
-    padding-top: 50px;
-    box-sizing: border-box;
-    width: 100%;height: 301px;
+    width: 1000px;
     background-color: #303030;
+    border: 0px;
 }
 
 .footer_in {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 0px auto;
 
 }
 
@@ -975,7 +877,7 @@ position: relative;
 .footer_in li {
     display: block;
     float: left;
-    color: #777;
+    color: #F4F4F4;
 }
 
 .footer_info2 {

@@ -84,12 +84,12 @@ $(document).ready(function() {
     var screen01Num =1;
     $(window).scroll(function(){
       var scrollTop =$(document).scrollTop();
-      if(scrollTop>2600 && screen01Num ==1){
+      if(scrollTop>2000 && screen01Num ==1){
         screen01Num =0;
-        $('.boxArea').stop().delay(700).css({top:'0px'}).animate({top:'-700px'},1000)}
-      else if(scrollTop<2700 && screen01Num ==0){
+        $('.boxArea').stop().delay(100).css({top:'-900px'}).animate({top:'300px'},5000)}
+      else if(scrollTop<1950 && screen01Num ==0){
         screen01Num =1;
-         $('.boxArea').stop().delay(700).css({top:'-700px'}).animate({top:'0px'},1000)
+         $('.boxArea').stop().delay(700).css({top:'300px'}).animate({top:'-900px'},5000)
 
       }
     })
