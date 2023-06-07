@@ -317,7 +317,8 @@
 .business_box .list .content1{
     width: 288px;
     height: 560px;
-     background-image:  url(../images/business1bg.png); 
+    
+    background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     background-repeat: no-repeat;
     background-size: 100%,100%;
     overflow: hidden;
@@ -342,9 +343,7 @@
 .business_box .list .content2 {
     width: 288px;
     height: 560px;
-    background-image: url(../images/business2bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%, 100%;
+background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
@@ -366,9 +365,7 @@
 .business_box .list .content3 {
     width: 288px;
     height: 560px;
-    background-image: url(../images/business3bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
@@ -390,7 +387,7 @@
 .business_box .list .content4 {
     width: 288px;
     height: 560px;
-    background-image: url(../images/business4bg.png);
+    background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
@@ -815,7 +812,7 @@ position: relative;
     margin-top: 230px;
     width: 100%;
     height: 632px;
-    background-image: url(../images/pawel-czerwinski-INK9-Idjm3E-unsplash.jpg);
+    background-image: url(../images/agencybg.png);
     background-size: 1920px;
 }
 
