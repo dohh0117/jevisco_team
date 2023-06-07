@@ -2,232 +2,12 @@
     width: 100%;
 }
 
-
 /* 상단 */
 #header {
     width: 100%;
-    height: 73px;
-    position: fixed;
-    z-index: 9999;
-    background-color: #ffffff82;
-
+    height: 837px;
+    background-color: aquamarine;
 }
-
-.header_in {
-    width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-}
-
-.header_in a {
-    float: left;
-    margin-top: 30px;
-    width: 190px;
-    height: 16px;
-}
-
-#nav {
-    display: inline-block;
-    text-align: center;
-    margin-left: 102px;
-}
-
-.menu {
-    width: 531px;
-    display: flex;
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li {
-    display: inline-block;
-    position: relative;
-    padding: 0 30px;
-}
-
-.menu a {
-    width: auto;
-    height: auto;
-    font-size: 16px;
-    line-height: 34px;
-    color: #000;
-    font-weight: 800;
-}
-
-#nav .sub1 {
-    position: absolute;
-    max-width: 100%;
-    text-align: center;
-    top: 65px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-}
-
-#nav .sub2 {
-    position: absolute;
-    top: 65px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-}
-
-#nav .sub3 {
-    position: absolute;
-    top: 65px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-}
-
-#nav .sub4 {
-    position: absolute;
-    top: 65px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-}
-
-#nav .sub li {
-    width: 100%;
-    height: 50px;
-    line-height: 30px;
-    text-align: center;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.sub li a {
-    margin: 10px auto;
-    float: left;
-    display: block;
-    width: 100%;
-}
-
-#nav .sub li.act a {
-    color: #000;
-    transition-duration: 1s;
-}
-
-#nav .sub li:hover {
-    width: 100%;
-    height: 50px;
-}
-
-
-.btn {
-    margin-left: 102px;
-    display: inline-block;
-    width: 200px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.btn .all {
-    width: 90px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    border-radius: 7px;
-    font-size: 12px;
-    color: #fff;
-    /* background: url(../images/ic_search.png) no-repeat 90% 50%; */
-    background-color: #090b0c6a;
-    font-weight: 500;
-}
-#main {
-    width: 100%;
-    height: 769px;
-    font-size: 0;
-    position: relative;
-}
-
-#main_img {
-    /* width: 1903px; */
-    width: 100%;
-    height: 769px;
-    position: relative;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-
-#main_img img {
-    /* width: 1903px; */
-    width: 100%;
-    height: 769px;
-    position: absolute;
-}
-
-#main_img img:nth-child(1) {
-    position: absolute;
-    left: 0;
-}
-
-#main_img img:nth-child(2) {
-    position: absolute;
-    left: -100%;
-}
-
-#main_img img:nth-child(3) {
-    position: absolute;
-    left: -200%;
-}
-
-#main .btns {
-    width: 100%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-}
-
-.btns>.left {
-    width: 70px;
-    height: 70px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_left.png) no-repeat 100% 100%;
-    border: none;
-    position: absolute;
-    left: 20%;
-    cursor: pointer;
-}
-
-.btns>.right {
-    width: 70px;
-    height: 70px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/main_arrow_right.png) no-repeat 100% 100%;
-    border: none;
-    position: absolute;
-    right: 20%;
-    cursor: pointer;
-}
-
-#main .playList {
-    width: 90px;
-    height: 30px;
-    float: left;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    bottom: 0;
-}
-
-#main .playList>div {
-    width: 30px;
-    height: 30px;
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery.png) no-repeat 50% 50%;
-    float: left;
-    display: inline-block;
-}
-
-#main .playList>div.on {
-    background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery_on.png) no-repeat 50% 50%;
-}
-
 
 /* 컨텐츠 */
 #contents {
@@ -240,7 +20,7 @@
     margin: 0 auto;
     width: 1200px;
     height: 2668px;
-    background:url(../images/companyinfobg.png);
+    background-color: #ccc;
     padding-top: 219px;
     box-sizing: border-box;
 }
@@ -255,7 +35,7 @@
 .companyInfoImgbox {
     width: 465px;
     height: 625px;
-    background:url(../images/info010.png);
+    background-color: turquoise;
 }
 .companyInfo_textArea{
     padding: 129px 0 0 55px;
@@ -265,8 +45,8 @@
    
 }
 .companyInfo_textArea .logo{
-    width: 190px;height: 70px;
-    background:url(../images/h1_logo.png)no-repeat;
+    width: 156px;height: 66px;
+    background-color: aqua;
 }
 .companyInfo_textArea .areaTitle{
     padding-top: 20px;
@@ -442,19 +222,16 @@ font-size: 18px;
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
-/* 하단 */
 #footer {
-   
+    border: 1px solid #000;
     margin-top: 0px;
-    padding-top: 50px;
-    box-sizing: border-box;
-    width: 100%;height: 301px;
+    width: 100%;
     background-color: #303030;
 }
 
 .footer_in {
     width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
 
 }
 
@@ -479,7 +256,7 @@ font-size: 18px;
 .footer_in li {
     display: block;
     float: left;
-    color: #777;
+    color: #F4F4F4;
 }
 
 .footer_info2 {
