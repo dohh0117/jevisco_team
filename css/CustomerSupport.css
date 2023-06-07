@@ -653,12 +653,15 @@
 }
 
 .family_site>a {
+    font-size: 14px;
     display: block;
-    height: 48px;
-    color: #8E8D8D;
+    height: 55px;
+    line-height: 18px;
+    color: #a1a1a1;
     font-weight: bold;
+    background: url(../images/family_off.png) no-repeat 150px 50%;
     box-sizing: border-box;
     padding-left: 29px;
-    line-height: 44px;
-    font-size: 20px;
+    line-height: 55px;
+    border-bottom: 1px solid #424242;
 }
