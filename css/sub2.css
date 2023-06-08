@@ -137,6 +137,7 @@
     background-color: #090b0c6a;
     font-weight: 500;
 }
+
 #main {
     width: 100%;
     height: 769px;
@@ -240,81 +241,98 @@
     margin: 0 auto;
     width: 1200px;
     height: 2668px;
-    background:url(../images/companyinfobg.png);
+    background: url(../images/companyinfobg.png);
     padding-top: 219px;
     box-sizing: border-box;
 }
 
 /* 회사 개요 */
-.companyInformation{
-    margin:  0 auto;
+.companyInformation {
+    margin: 0 auto;
     display: flex;
-     width: 890px;height: 625px;
-    
+    width: 890px;
+    height: 625px;
+
 }
+
 .companyInfoImgbox {
     width: 465px;
     height: 625px;
-    background:url(../images/info010.png);
+    background: url(../images/info010.png);
 }
-.companyInfo_textArea{
+
+.companyInfo_textArea {
     padding: 129px 0 0 55px;
-    width:422px;
-    height:625px;
+    width: 422px;
+    height: 625px;
     box-sizing: border-box;
-   
+
 }
-.companyInfo_textArea .logo{
-    width: 190px;height: 70px;
-    background:url(../images/h1_logo.png)no-repeat;
+
+.companyInfo_textArea .logo {
+    width: 190px;
+    height: 70px;
+    background: url(../images/h1_logo.png)no-repeat;
 }
-.companyInfo_textArea .areaTitle{
+
+.companyInfo_textArea .areaTitle {
     padding-top: 20px;
-    font-size: 32px; font-weight: bold;
+    font-size: 32px;
+    font-weight: bold;
 }
-.description{
+
+.description {
     padding-top: 20px;
 }
-.description li{
-padding-top:20px;
-font-size: 18px;
+
+.description li {
+    padding-top: 20px;
+    font-size: 18px;
 }
-.description li em{
-    font-style:normal ;
-    font-weight:bold ;
-    padding-right:22px ;
+
+.description li em {
+    font-style: normal;
+    font-weight: bold;
+    padding-right: 22px;
 }
+
 /* 브랜드 소개영역 */
-.brandInfo{
+.brandInfo {
     margin: 0 auto;
     margin-top: 155px;
-        width: 890px;
-        height: 850px;
-       
-}
-
-.brandInfo li{
-   margin-bottom: 73px;
+    width: 890px;
+    height: 850px;
 
 }
-.brandInfo li .logoarea{
-    width: 200px; height: 50px;
+
+.brandInfo li {
+    margin-bottom: 73px;
+
+}
+
+.brandInfo li .logoarea {
+    width: 200px;
+    height: 50px;
     background-color: aqua;
 }
-.brandInfo ul li h4{
+
+.brandInfo ul li h4 {
     padding-top: 20px;
     font-size: 32px;
 }
-.brandDescription{
+
+.brandDescription {
     margin-top: 20px;
     width: 576px;
     height: 133px;
-    
+
 }
-.brandDescription span{
+
+.brandDescription span {
     display: block;
     padding-bottom: 20px;
 }
+
 #agency {
     margin-top: 230px;
     width: 100%;
@@ -329,7 +347,7 @@ font-size: 18px;
     margin: 0 auto;
     width: 1200px;
     height: 632px;
-        align-items: center;
+    align-items: center;
 
 }
 
@@ -442,13 +460,15 @@ font-size: 18px;
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
+
 /* 하단 */
 #footer {
-   
+
     margin-top: 0px;
     padding-top: 50px;
     box-sizing: border-box;
-    width: 100%;height: 301px;
+    width: 100%;
+    height: 301px;
     background-color: #303030;
 }
 
@@ -495,6 +515,7 @@ font-size: 18px;
     height: auto;
 }
 
+
 .footer_r {
     float: right;
     position: relative;
@@ -522,12 +543,15 @@ font-size: 18px;
 }
 
 .family_site>a {
+    font-size: 14px;
     display: block;
-    height: 48px;
-    color: #8E8D8D;
+    height: 55px;
+    line-height: 18px;
+    color: #a1a1a1;
     font-weight: bold;
+    background: url(../images/family_off.png) no-repeat 150px 50%;
     box-sizing: border-box;
     padding-left: 29px;
-    line-height: 44px;
-    font-size: 20px;
+    line-height: 55px;
+    border-bottom: 1px solid #424242;
 }

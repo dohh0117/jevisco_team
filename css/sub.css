@@ -1,6 +1,7 @@
-#wrap{
+#wrap {
     width: 100%;
 }
+
 /* 상단 */
 #header {
     width: 100%;
@@ -135,6 +136,7 @@
     background-color: #090b0c6a;
     font-weight: 500;
 }
+
 #main {
     width: 100%;
     height: 769px;
@@ -227,109 +229,136 @@
 }
 
 /* 컨텐츠 */
-#contents{
+#contents {
     width: 100%;
-    height:2668px ;
-padding-bottom: 112px;
+    height: 2668px;
+    padding-bottom: 112px;
 }
-#contents_in{
+
+#contents_in {
     margin: 0 auto;
-     width: 1200px;
-     height: 2668px;
-     background:url(../images/companyinfobg.png);
-   
+    width: 1200px;
+    height: 2668px;
+    background: url(../images/companyinfobg.png);
+
 }
+
 /* 회사소개글 */
-.companyTitle{
+.companyTitle {
     padding: 166px 0 0 223px;
     box-sizing: border-box;
     width: 100%;
     height: 361px;
-   
+
 }
-.companyTitle .info_title{
+
+.companyTitle .info_title {
     padding-bottom: 5px;
-    font-size: 36px; font-weight: bold;
+    font-size: 36px;
+    font-weight: bold;
 }
-.companyTitle .info_description{
+
+.companyTitle .info_description {
     font-size: 13px;
 }
-.comapnyImgBox{
-    width: 100%;height: 137px;
-    background:url(../images/info001.png);
+
+.comapnyImgBox {
+    width: 100%;
+    height: 137px;
+    background: url(../images/info001.png);
 }
+
 /* 사업분야 */
-.businessList{
+.businessList {
     margin-top: 60px;
     width: 100%;
     height: 593px;
-   
+
 }
-.businessList ul{
-    margin:  0 auto;
+
+.businessList ul {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 606px;
     height: 593px;
-    
+
 }
-.businessList ul li{
+
+.businessList ul li {
     display: flex;
     justify-content: space-between;
-    width: 100%;height: 107px;
-   
+    width: 100%;
+    height: 107px;
+
 }
-.businessImgBox{
-    width: 224px;height: 107px;
+
+.businessImgBox {
+    width: 224px;
+    height: 107px;
     background-color: cornflowerblue;
 }
-.listTextBox{
+
+.listTextBox {
     width: 352px;
     height: 107px;
     display: flex;
-    flex-direction: column; justify-content: center;
-   
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.companyHistory{
+.companyHistory {
     margin-top: 127px;
 }
-.companyHistoryText{
-    width: 100%;height: 110px;
+
+.companyHistoryText {
+    width: 100%;
+    height: 110px;
     box-sizing: border-box;
-    padding-left:223px;
-   
+    padding-left: 223px;
+
 }
-.history_title{
+
+.history_title {
     font-size: 36px;
     font-weight: bold;
     padding-bottom: 18px;
 }
-.history_description{
+
+.history_description {
     font-size: 13px;
 }
-.historyList{
-    margin:  0 auto;
+
+.historyList {
+    margin: 0 auto;
     margin-top: 50px;
     width: 252px;
     height: 1075px;
-    display: flex;flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-  
+
 }
-.historyList li{
+
+.historyList li {
     text-align: center;
-    width: 100%;height: 234px;
-   
+    width: 100%;
+    height: 234px;
+
 }
-.historyList li div{
-    width: 100%;height: 166px;
+
+.historyList li div {
+    width: 100%;
+    height: 166px;
     background-color: yellow;
 }
-.historyList li h4{
+
+.historyList li h4 {
     padding-top: 10px;
 }
+
 #agency {
     margin-top: 230px;
     width: 100%;
@@ -344,7 +373,7 @@ padding-bottom: 112px;
     margin: 0 auto;
     width: 1200px;
     height: 632px;
-        align-items: center;
+    align-items: center;
 
 }
 
@@ -425,6 +454,23 @@ padding-bottom: 112px;
     background-color: #fff;
 }
 
+#agency .aec01 .aec_in img {
+    position: relative;
+    left: 120px;
+    top: 5px;
+}
+
+#agency .aec02 .aec_in img {
+    position: relative;
+    left: 140px;
+    top: 5px;
+}
+
+#agency .aec03 .aec_in img {
+    position: relative;
+    left: 160px;
+    top: 5px;
+}
 
 #company {
     width: 100%;
@@ -457,13 +503,15 @@ padding-bottom: 112px;
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
+
 /* 하단 */
 #footer {
-   
+
     margin-top: 0px;
     padding-top: 50px;
     box-sizing: border-box;
-    width: 100%;height: 301px;
+    width: 100%;
+    height: 301px;
     background-color: #303030;
 }
 
@@ -510,6 +558,7 @@ padding-bottom: 112px;
     height: auto;
 }
 
+
 .footer_r {
     float: right;
     position: relative;
@@ -537,12 +586,15 @@ padding-bottom: 112px;
 }
 
 .family_site>a {
+    font-size: 14px;
     display: block;
-    height: 48px;
-    color: #8E8D8D;
+    height: 55px;
+    line-height: 18px;
+    color: #a1a1a1;
     font-weight: bold;
+    background: url(../images/family_off.png) no-repeat 150px 50%;
     box-sizing: border-box;
     padding-left: 29px;
-    line-height: 44px;
-    font-size: 20px;
+    line-height: 55px;
+    border-bottom: 1px solid #424242;
 }

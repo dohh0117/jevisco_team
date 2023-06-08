@@ -26,6 +26,7 @@
     height: 16px;
 }
 
+
 #nav {
     display: inline-block;
     text-align: center;
@@ -164,11 +165,10 @@
   
 }
 #main_img > div .inner{
-    width: 1500px;
+    width: 1000px;
     height: 300px;
-    padding: 400px 0 0 300px;
+    padding: 200px 0 0 300px;
     box-sizing: border-box;
-   
     opacity: 1;
 } 
 
@@ -196,22 +196,26 @@
 }
 
 
-#main_img div:nth-child(1) {
+#main_img .img1 {
     position: absolute;
     left: 0;
     top:0;
+    background-image: url(../images/Mainimg1.png);
+    
 }
 
-#main_img div:nth-child(2) {
+#main_img .img2 {
     position: absolute;
     left: -100%;
     top: 0;
+    background-image: url(../images/kateryna-hliznitsova-ZnZi3IsDpJo-unsplash.jpg);
 }
 
-#main_img div:nth-child(3) {
+#main_img .img3 {
     position: absolute;
     left: -200%;
     top: 0;
+    background-image: url(../images/lucas-kapla-wQLAGv4_OYs-unsplash.jpg);
 }
 
 #main .btns {
@@ -452,12 +456,11 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 }
 .diytext_tilte{
     font-size: 17px;
-    font-weight: 700;
   
 }
 .discription{
     padding-top:13px ;
-    font-size: 16px;
+    font-size: 13px;
     color: #444;
 }
 .animateButton{
@@ -522,10 +525,10 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 #history {
     margin-top: 230px;
     width: 100%;
-    height: 1100px;
+    height: 1300px;
     position: relative;
-    background: url(../images/historybg.png) fixed;
-   
+    /* background: url(../images/history01.png) fixed; */
+    background-color: #09182a;
     overflow: hidden;
    
 }
@@ -538,10 +541,10 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 }
 .history_line {
     float: right;
-    margin: 0 670px 0 0;
+    margin: 0px;
     width: 2px;
-    height: 1100px;
-   background-color: #f1f4f542;
+    height: 900px;
+   background-color: #f1f4f5;
 }
 .boxArea{
     width: 70%;height: 1900px;
@@ -813,7 +816,7 @@ position: relative;
     margin-top: 230px;
     width: 100%;
     height: 632px;
-    background-image: url(../images/agency.png);
+    background-image: url(../images/icon_background.png);
     background-size: 1920px;
 }
 
@@ -823,10 +826,9 @@ position: relative;
     margin: 0 auto;
     width: 1200px;
     height: 632px;
-        align-items: center;
+    align-items: center;
 
 }
-
 
 #agency .aec {
     width: 1200px;
@@ -902,6 +904,21 @@ position: relative;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
     background-color: #fff;
+}
+#agency .aec01 .aec_in img{
+    position: relative;
+    left: 120px;
+    top: 5px;
+}
+#agency .aec02 .aec_in img{
+    position: relative;
+    left: 140px;
+    top: 5px;
+}
+#agency .aec03 .aec_in img{
+    position: relative;
+    left: 160px;
+    top: 5px;
 }
 
 
@@ -989,6 +1006,7 @@ position: relative;
     height: auto;
 }
 
+
 .footer_r {
     float: right;
     position: relative;
@@ -1016,12 +1034,15 @@ position: relative;
 }
 
 .family_site>a {
+    font-size: 14px;
     display: block;
-    height: 48px;
-    color: #8E8D8D;
+    height: 55px;
+    line-height: 18px;
+    color: #a1a1a1;
     font-weight: bold;
+    background: url(../images/family_off.png) no-repeat 150px 50%;
     box-sizing: border-box;
     padding-left: 29px;
-    line-height: 44px;
-    font-size: 20px;
+    line-height: 55px;
+    border-bottom: 1px solid #424242;
 }
