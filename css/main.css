@@ -150,47 +150,51 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    
+
     overflow: hidden;
     cursor: pointer;
 }
 
 
-#main_img > div {
+#main_img>div {
     /* width: 1903px; */
     width: 100%;
     height: 100vh;
     /* padding: 400px 0 0 0; */
-   float: left;
-  
+    float: left;
+
 }
-#main_img > div .inner{
+
+#main_img>div .inner {
     width: 1000px;
     height: 300px;
     padding: 200px 0 0 300px;
     box-sizing: border-box;
     opacity: 1;
-} 
+}
 
-#main_img > div .inner.show{
+#main_img>div .inner.show {
     animation: slider 1s ease-out;
 
 }
 
-@keyframes slider{
-    form{
+@keyframes slider {
+    form {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 
 }
-#main_img > div .inner h2{
+
+#main_img>div .inner h2 {
     color: #fff;
     font-size: 60px;
 }
-#main_img > div .inner span{
+
+#main_img>div .inner span {
     color: #fff;
     font-size: 25px;
 }
@@ -199,9 +203,9 @@
 #main_img .img1 {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
     background-image: url(../images/Mainimg1.png);
-    
+
 }
 
 #main_img .img2 {
@@ -268,18 +272,20 @@
 #main .playList>div.on {
     background: url(http://www.jevisco.com/front/kr/asset/images/main/paging_gallery_on.png) no-repeat 50% 50%;
 }
-#contents{
+
+#contents {
     width: 100%;
     height: auto;
     padding-top: 110px;
     box-sizing: border-box;
 }
+
 /*사업소개*/
 #business {
     width: 100%;
     height: 645px;
     margin-top: 230px;
-   
+
 }
 
 .business_in {
@@ -307,7 +313,7 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-  
+
 }
 
 .business_box .list .listbox {
@@ -318,16 +324,17 @@
 
 }
 
-.business_box .list .content1{
+.business_box .list .content1 {
     width: 288px;
     height: 560px;
-    
+
     background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     background-repeat: no-repeat;
-    background-size: 100%,100%;
+    background-size: 100%, 100%;
     overflow: hidden;
 
 }
+
 .business_box .list .content1 img {
     width: 100%;
     height: 455px;
@@ -347,10 +354,11 @@
 .business_box .list .content2 {
     width: 288px;
     height: 560px;
-background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
+    background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
+
 .business_box .list .content2 img {
     width: 100%;
     height: 455px;
@@ -373,6 +381,7 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
+
 .business_box .list .content3 img {
     width: 100%;
     height: 455px;
@@ -395,13 +404,14 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     overflow: hidden;
 
 }
+
 .business_box .list .content4 img {
     width: 100%;
-        height: 455px;
-        transition: all .5s;
-        transform-origin: 50% 80%;
-        overflow: hidden;
- }
+    height: 455px;
+    transition: all .5s;
+    transform-origin: 50% 80%;
+    overflow: hidden;
+}
 
 
 
@@ -428,53 +438,61 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 }
 
 /*color*/
-#color{
-    margin-top:230px ;
+#color {
+    margin-top: 230px;
     width: 100%;
-    height:712px;
+    height: 712px;
     position: relative;
 }
-.color_text{
-    width:1250px;height: 430px;
-    padding:102px 0 0 340px;
+
+.color_text {
+    width: 1250px;
+    height: 430px;
+    padding: 102px 0 0 340px;
     box-sizing: border-box;
     background-color: #F5F5F5;
     opacity: 1;
     transition: 0.5s;
     position: relative;
 }
-.diy_sub_title{
-    font-size:22px;
+
+.diy_sub_title {
+    font-size: 22px;
     color: #636363;
     font-weight: 700;
 }
-.diy_title{
-    font-size:30px;
+
+.diy_title {
+    font-size: 30px;
     color: #000;
     font-weight: bolder;
     padding-bottom: 13px;
 }
-.diytext_tilte{
+
+.diytext_tilte {
     font-size: 17px;
-  
+
 }
-.discription{
-    padding-top:13px ;
+
+.discription {
+    padding-top: 13px;
     font-size: 13px;
     color: #444;
 }
-.animateButton{
+
+.animateButton {
     cursor: pointer;
     position: absolute;
-    top:300px;
+    top: 300px;
     background: none;
     border: 0;
-    width: 24px;height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 
 .color_text img,
-.color_text2 img{
+.color_text2 img {
     width: 53px;
     height: 50px;
 }
@@ -487,25 +505,27 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     background-color: #F5F5F5;
     transition: top 0.5s;
     position: relative;
-  top: 100px;
-  opacity: 0; 
+    top: 100px;
+    opacity: 0;
 }
 
 
-.img_area{
+.img_area {
     position: absolute;
-    top: 242px; right: -40%;
-    width:618px ;
+    top: 242px;
+    right: -40%;
+    width: 618px;
     height: 470px;
     background-color: #004ba9;
     z-index: 9999;
 }
-.img_area img{
+
+.img_area img {
     width: 100%;
     height: 100%;
 }
 
-.bluebox{
+.bluebox {
     position: relative;
     top: -528px;
     left: 400px;
@@ -513,98 +533,122 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     height: 55px;
     background-color: #004ba9;
 }
-.line{
+
+.line {
     position: absolute;
-    top:360px;right: 0;
+    top: 360px;
+    right: 0;
     width: 200px;
     height: 2px;
-    background-color:#004ba9 ;
+    background-color: #004ba9;
 }
 
 /*회사 연혁*/
 #history {
     margin-top: 230px;
     width: 100%;
-    height: 1300px;
+    height: 1100px;
     position: relative;
-    /* background: url(../images/history01.png) fixed; */
-    background-color: #09182a;
+    background: url(../images/historybg.png) fixed;
+
     overflow: hidden;
-   
+
 }
+
 .history_title {
     float: left;
     padding: 50px 0 0 50px;
     font-size: 70px;
-    font-weight:bold;
+    font-weight: bold;
     color: #fff;
 }
+
 .history_line {
     float: right;
-    margin: 0px;
+    margin: 0 670px 0 0;
     width: 2px;
-    height: 900px;
-   background-color: #f1f4f5;
+    height: 1100px;
+    background-color: #f1f4f542;
 }
-.boxArea{
-    width: 70%;height: 1900px;
-   
-    display: flex;justify-content: space-between;
-   position: absolute; top: -900px;right: 0;
+
+.boxArea {
+    width: 70%;
+    height: 1900px;
+
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -900px;
+    right: 0;
 }
-.boxArea .right_box{
-    width: 45%;height: 1000px;
-  
-    display: flex; flex-direction: column;
+
+.boxArea .right_box {
+    width: 45%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
+
 .boxArea .left_box {
     margin-top: 100px;
-    width: 45%;height: 1000px;
-   
-    display: flex; flex-direction: column;
+    width: 45%;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
-#history .box01{
-  
-    width: 600px;height: 502px;
-  
-  
+#history .box01 {
+
+    width: 600px;
+    height: 502px;
+
+
 }
 
-#history .box02{
-   
-    width: 600px;height: 502px;
-   
+#history .box02 {
+
+    width: 600px;
+    height: 502px;
+
 }
+
 #history .box03 {
 
     width: 600px;
     height: 502px;
-   
 
-}#history .box04 {
+
+}
+
+#history .box04 {
 
     width: 600px;
     height: 502px;
-  
+
 
 }
-.historyImagBox{
+
+.historyImagBox {
     margin: 0 auto;
     width: 586px;
     height: 220px;
     border-radius: 7px;
     overflow: hidden;
 }
-.historyImagBox img{
-    width: 100%;height: 100%;
+
+.historyImagBox img {
+    width: 100%;
+    height: 100%;
 }
-.history_description{
+
+.history_description {
     margin: 0 auto;
     margin-top: 20px;
-   width: 586px;
+    width: 586px;
     height: 220px;
     color: #ccc;
     font-size: 16px;
@@ -778,6 +822,7 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
     height: 38px;
     top: 10px;
 }
+
 .news_inbox2 em {
     position: relative;
     left: -6px;
@@ -797,7 +842,7 @@ background: linear-gradient(rgb(89, 125, 253) 5%, #004ba9);
 }
 
 .news_inbox2 .text4 {
-position: relative;
+    position: relative;
     left: 0px;
     width: 100%;
     line-height: 20px;
@@ -811,6 +856,7 @@ position: relative;
     top: 2px;
     font-size: 13px;
 }
+
 /*대리점*/
 #agency {
     margin-top: 230px;
@@ -905,17 +951,20 @@ position: relative;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
     background-color: #fff;
 }
-#agency .aec01 .aec_in img{
+
+#agency .aec01 .aec_in img {
     position: relative;
     left: 120px;
     top: 5px;
 }
-#agency .aec02 .aec_in img{
+
+#agency .aec02 .aec_in img {
     position: relative;
     left: 140px;
     top: 5px;
 }
-#agency .aec03 .aec_in img{
+
+#agency .aec03 .aec_in img {
     position: relative;
     left: 160px;
     top: 5px;
@@ -953,13 +1002,15 @@ position: relative;
 #company .company_img ul li:not(:first-child) {
     opacity: 0;
 }
+
 /* 하단 */
 #footer {
-   
+
     margin-top: 0px;
     padding-top: 50px;
     box-sizing: border-box;
-    width: 100%;height: 301px;
+    width: 100%;
+    height: 301px;
     background-color: #303030;
 }
 
